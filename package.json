@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-hongkong-procurement",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hong Kong Government Procurement MCP — GLD 'Contracts Awarded' (keyless).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-hongkong-procurement": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "hongkong-procurement"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-hongkong-procurement"
+    "url": "git+https://github.com/pipeworx-io/mcp-hongkong-procurement.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-a65a1fc557a2bc9970403e01aebe2227b378777e85147b1be3dd9cd197bf02aa",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
   }
 }
