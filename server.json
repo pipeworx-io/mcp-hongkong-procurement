@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/hongkong-procurement",
   "title": "Hongkong Procurement",
   "description": "Hong Kong Government Procurement MCP — GLD 'Contracts Awarded' (keyless).",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/hongkong-procurement",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-hongkong-procurement",
