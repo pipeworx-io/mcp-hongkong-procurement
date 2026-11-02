@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-hongkong-procurement",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Hong Kong Government Procurement MCP — GLD 'Contracts Awarded' (keyless).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "hongkong-procurement",
     "gatewaySlug": "hongkong-procurement",
-    "sourceHash": "v1-a140012f34d95a423b6777775ac00a24d55ac1bb8a26c7b5c703ec11f62c6e63",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-0180b57ceecf462fa1457e5fa922bfdf923722a8a5b4bab72381f027c15485ed",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
